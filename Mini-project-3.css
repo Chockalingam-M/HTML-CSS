@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    background-color: burlywood;
+    width: 100%;
+    height: 80px;
+    padding-top: 3px;
+}
+nav >ol {
+    display: flex;
+    float: right;
+    padding-left: 900px;
+    padding-top: 13px;
+}
+.Title{
+    padding-left: 150px;
+    display: inline-block;
+}
+
+ol li {
+    list-style-type: none;
+    margin-right: 25px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffeff6;
+}
