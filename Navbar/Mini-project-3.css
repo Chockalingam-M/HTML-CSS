@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    border: 0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 main{
@@ -9,13 +9,14 @@ main{
     background-color: burlywood;
     width: 100%;
     height: 80px;
-    padding-top: 3px;
+    padding-top: 20px;
 }
 nav >ol {
     display: flex;
     float: right;
     padding-left: 900px;
-    padding-top: 13px;
+    padding-top: 5px;
+
 }
 .Title{
     padding-left: 150px;
